@@ -29,6 +29,10 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      border-color: var(--accent-color);
+    }
   }
   
   .company-link {
@@ -40,14 +44,9 @@
     align-items: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
   }
   
-  .company-iteam:hover,
-  .company-iteam:focus {
-    border-color: var(--accent-color);
-  }
-  
-  .company-link:hover,
-  .company-link:focus {
-    fill: var(--accent-color);
-  }

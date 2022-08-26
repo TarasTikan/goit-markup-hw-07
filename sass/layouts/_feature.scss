@@ -19,24 +19,22 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+    .feature-iteam {
+      width: 270px;
+    }
+    .feature-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      margin-bottom: 10px;
+    }
+    .feature-text {
+      color: var(--secondary-text-color);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+    }
   }
   
-  .feature-iteam {
-    width: 270px;
-  }
-
-  .feature-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-  }
-  
-  .feature-text {
-    color: var(--secondary-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }

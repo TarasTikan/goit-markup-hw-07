@@ -2,26 +2,29 @@
     padding-bottom: 94px;
   }
   
-  .work-list {
+  .work__list {
     list-style: none;
     display: flex;
     gap: 30px;
   }
   
-  .work-title {
+  .work__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+
+  .work__pre__title {
     margin-bottom: 50px;
   }
   
-  .work-iteam {
+  .work__iteam {
     position: relative;
   }
   
-  .work-text {
+  .work__description {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

@@ -7,8 +7,17 @@
     border-bottom: 1px solid #ececec;
   }
   
+  .navigation__list {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
   .logo,
-  .sub-logo {
+  .sub__logo {
     color: var(--accent-color);
     text-decoration: none;
     font-family: "Raleway";
@@ -18,37 +27,24 @@
     letter-spacing: 0.03em;
   }
   
-  .sub-logo {
+  .sub__logo {
     color: var(--primary-text-color);
   }
   
-  .logo {
+  .header__logo {
     margin-right: 93px;
   }
   
-  .header-list {
-    list-style: none;
-    display: flex;
-    column-gap: 50px;
-    margin-left: auto;
-  }
   
-
-  
-  .header-list .link:hover,
-  .header-list .link:focus {
+  .navigation__list .link:hover,
+  .navigation__list .link:focus {
     color: var(--accent-color);
   }
   
   
-  .header-list {
-    margin-left: auto;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .header-list .tel,
-  .header-list .mail {
+  .contacts__list .tel,
+  .contacts__list .mail {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -62,32 +58,41 @@
   }
   
   
-  .mail-icon {
+  .mail__icon {
     margin-right: 10px;
     fill: currentColor;
-  }
-  
-  .mail-icon:hover {
+     &:hover {
     fill: var(--accent-color);
   }
+  }
   
-  .phone-icon {
+
+  .phone__icon {
     margin-right: 10px;
     align-items: center;
     justify-content: center;
     fill: currentColor;
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
   
-  .phone-icon:hover {
-    fill: var(--accent-color);
-  }
   
-  .header-list .tel:focus,
-  .header-list .tel:hover {
+  .contacts__list .tel:focus,
+  .contacts__list .tel:hover {
     color: var(--accent-color);
   }
   
-  .header-list .mail:focus,
-  .header-list .mail:hover {
+  .contacts__list .mail:focus,
+  .contacts__list .mail:hover {
     color: var(--accent-color);
+  }
+
+  .contacts__list {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
   }
