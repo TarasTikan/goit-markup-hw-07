@@ -272,7 +272,8 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-.feature-list .feature-text {
+
+.feature-text {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
